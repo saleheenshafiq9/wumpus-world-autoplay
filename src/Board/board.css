@@ -1,0 +1,56 @@
+.container-fluid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #93032E;
+	font-family: 'Jura', sans-serif;
+	color: white;
+}
+
+table td {
+	border: 1px solid grey;
+	width: 80px;
+	height: 80px;
+}
+
+.unvisited {
+	filter: opacity(70%);
+	background-color: white;
+}
+
+.safe {
+	background-color: #3BC14A;	
+}
+
+.stench {
+	background-color: #B84A62;
+}
+
+.breeze {
+	background-color: #AC7B84;
+}
+
+.breezestench {
+	background-color: #4C243B;
+}
+
+.win {
+	margin: 10% 8%;
+	width: 250px;
+	height: 250px;
+}
+
+.modal-win {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.text-win {
+	margin: 45%;
+	margin-bottom: 10%;
+	font-size: 30px;
+}
+
+.card-text, .card-title {
+	font-family: 'Jura', sans-serif;;
+}
